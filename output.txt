@@ -1,0 +1,13 @@
+--- CARGO RUN ---
+[1m[92m    Finished[0m `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+[1m[92m     Running[0m `target/debug/rust-practice`
+We learn Rust!
+\n--- CARGO TEST ---
+[1m[92m    Finished[0m `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+[1m[92m     Running[0m unittests src/main.rs (target/debug/deps/rust_practice-b7653c8fa2772894)
+
+running 1 test
+test hackerrank::task0::test0 ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { background-color: #1e1e1e; color: #d4d4d4; font-family: 'Courier New', Courier, monospace; padding: 20px; }
+  pre { white-space: pre-wrap; word-wrap: break-word; }
+  .header { color: #569cd6; font-weight: bold; margin-bottom: 10px; }
+  .success { color: #4ec9b0; }
+</style>
+</head>
+<body>
+<div class="header">Terminal Output - Cargo Run & Test</div>
+<pre>
+--- CARGO RUN ---
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/rust-practice`
+We learn Rust!
+
+--- CARGO TEST ---
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running unittests src/main.rs (target/debug/deps/rust_practice-b7653c8fa2772894)
+
+running 1 test
+test hackerrank::task0::test0 ... <span class="success">ok</span>
+
+test result: <span class="success">ok</span>. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+</pre>
+</body>
+</html>
