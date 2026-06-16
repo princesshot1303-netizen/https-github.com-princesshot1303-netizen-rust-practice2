@@ -1,4 +1,6 @@
 pub mod staircase;
+pub mod grading;
+pub mod kangaroo;
 pub mod task0;
 pub mod task03;
 pub mod task04;
