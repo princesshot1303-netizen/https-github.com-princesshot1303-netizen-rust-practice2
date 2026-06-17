@@ -3,6 +3,7 @@ pub mod grading;
 pub mod kangaroo;
 pub mod between_two_sets;
 pub mod breaking_records;
+pub mod migratory_birds;
 pub mod task0;
 pub mod task03;
 pub mod task04;
